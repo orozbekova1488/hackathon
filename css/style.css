@@ -1,0 +1,144 @@
+body {
+    background: url(https://instapik.ru/wp-content/uploads/2020/08/white-background-1.jpg);
+    
+}
+ /* NAVBAR STARTS */
+.logo {
+    margin-left: 10px;
+    cursor: pointer;
+    color:#FFFFFF8C ;
+    background-color: dark;
+    text-align: center;
+    justify-content: center;
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 100px;
+    max-width: 600px;
+}
+/* NAVBAR ENDS */
+/* CONTENT STARTS*/
+h5 {
+    color: rgba(53, 42, 42, 0.61);
+    margin-left: 100px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:1;
+}
+.paragraph {
+    margin-left: 100px;
+    max-width: 500px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count:1;
+}
+ 
+.wrapper__right {
+    position: relative;
+    width: 100%;
+}
+.wrapper__right img:first-child
+{
+    position: absolute;
+    top: -430px;
+    right: 158px;
+}
+.william {
+    position: absolute;
+    width: 380px;
+    height: 522px;
+    border-radius: 5%;
+}
+
+.work {
+    margin-top: 140px;
+    margin-left: 100px;
+}
+/* CONTENT ENDS */
+/* PHOTO STARTS*/
+.carousel-inner{
+    margin-top: 40px;
+}
+.carousel-item img{
+    width: 400px !important ;
+    height: 600px !important;
+    border-radius: 5%;
+    margin: auto;
+    
+}
+/* PHOTO ENDS */
+
+/* FOOTER STARTS */
+.footer{
+    margin-top: 20px;
+    margin-bottom: 0;
+    color:#FFFFFF8C ;
+    height: 120px;
+}
+/* FOOTER ENDS */
+/* ANIMATION STARTS */
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 7%;
+      width: 100%;
+    }
+  }
+/* ANIMATION ENDS */
+/* MEDIA STARTS */
+@media(max-width:1400px) {
+    .william {
+        height: 470px;
+        width: 380px;
+    }
+}
+@media (max-width:1200px) {
+    .william {
+        height: 470px;
+        width: 380px;
+    }
+}
+@media (max-width:1131px) {
+    .wrapper__right img:first-child {
+        position:initial;
+        height: 400px;
+        width: 350px;
+        margin-left: 100px;
+
+    } 
+}
+@media (max-width:899px) {
+    .carousel-item  {
+        position: initial;
+        max-width: 100%;
+}
+}
+
+@media (max-width:576px) {
+    .carousel-item  {
+        position: initial;
+        height: 400px;
+        width: 350px;
+    }
+}
+@media (max-width:320px) {
+    .william {
+        height: 150px;
+        width: 70px;
+}
+    .footer {
+        width: 100%;
+}
+    .carousel-item  {
+        position: initial;
+        max-width: 100%;
+        margin-left:100px;
+}
+}
+
+/* MEDIA ENDS */
